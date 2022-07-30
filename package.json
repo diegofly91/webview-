@@ -37,7 +37,5 @@
     },
     "deb": {}
   },
-  "dependencies": {
-    "dotenv": "^16.0.1"
-  }
+  "dependencies": {}
 }

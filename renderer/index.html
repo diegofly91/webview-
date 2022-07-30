@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Basa Turnos</title>
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';">
+    <script type="text/javascript" src="./loading.js"> 
+    </script>
   </head>
   <body>
     <webview 
@@ -12,9 +14,11 @@
       id="webview" 
       autosize="on"
       src="http://dev-afiliados.sistemasclinicosbasa.com:86/" 
-      process.env
       data-home="http://dev-afiliados.sistemasclinicosbasa.com:86/"
     >
     </webview>
+    <img src="./logobasaico.png" id="loader" />
+    
+    
   </body>
 </html>

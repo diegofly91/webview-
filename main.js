@@ -8,7 +8,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     fullscreen : true,
     icon: path.join(__dirname, 'ico-basa.ico'),
-    backgroundColor: '#274d8b',
+    backgroundColor: '#f5f5f5',
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: false,
